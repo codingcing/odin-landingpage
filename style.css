@@ -1,0 +1,21 @@
+
+body {
+    /* display: flex;
+    flex-direction: column;  unsure if the whole thing needs to be a flex container*/
+    font-family: 'Roboto', sans-serif;
+}
+
+.header,
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
