@@ -1,7 +1,7 @@
 /* see all boxes */
 /* * {
     border: red 2px solid;
-}  */
+} */
 
 body {
     display: flex;
@@ -78,7 +78,35 @@ button#signup {
     margin-top: 10px;
 }
 
+.title3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin: 30px auto;
+}
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
 
+.placeholder {
+    border: #3882f6 4px solid;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.text {
+    color: grey;
+    width: 150px;
+    height: 250px;
+    text-align: center;
+    margin: 0;
+}
 
 
