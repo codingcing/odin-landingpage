@@ -1,21 +1,46 @@
+/* see all boxes */
+/* * {
+    border: red 2px solid;
+}  */
 
 body {
-    /* display: flex;
-    flex-direction: column;  unsure if the whole thing needs to be a flex container*/
+    display: flex;
+    flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 .header,
 .footer {
-    background-color: #1f2937;
+    background: #1f2937;
     color: white;
     display: flex;
+    padding: 8px;
+    align-items: center;
 }
 
-ul {
-    margin: 0;
+.header {
+    justify-content: space-between;
+}
+
+#title {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    margin: 0 0 0 35px;
+}
+
+ul#l1 {
+    margin: 0 35px 0 0;
     padding: 0;
     list-style: none;
     display: flex;
+    gap: 10px;
 }
+
+ul#l1 li {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 
