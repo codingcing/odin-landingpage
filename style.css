@@ -11,7 +11,6 @@ body {
 }
 
 .header,
-.footer,
 .s1 {
     background: #1f2937;
     color: white;
@@ -43,9 +42,15 @@ ul#l1 {
     font-size: 48px;
     color: #f9faf8;
     font-weight: bolder;
+    margin-bottom: 10px;
 }
 
 .subtext {
+    margin-bottom: 10px;
+}
+
+.subtext,
+.footer {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -70,11 +75,11 @@ img#kobe {
 }
 
 button#signup {
-    border-radius: 3px;
+    border-radius: 7px;
     background: #3882f6;
     color: white;
     border: none;
-    padding: 5px 15px; 
+    padding: 7px 20px; 
     margin-top: 10px;
 }
 
@@ -173,3 +178,9 @@ button#signup2 {
     font-weight: bold;
 }
 
+.footer {
+    text-align: center;
+    background: #1f2937;
+    color: white;
+    padding: 40px;
+}
