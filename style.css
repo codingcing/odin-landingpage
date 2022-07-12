@@ -136,3 +136,40 @@ button#signup {
     color: #1f2937;
     text-align: end;
 }
+
+.rcontainer {
+    display: flex;
+    padding: 20px auto;
+    gap: 110px;
+    background: #3882f6;
+    border-radius: 10px;
+    width: 900px;
+    height: 125px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.s4 {
+    margin: 80px auto;
+}
+
+#cta {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#fu {
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+button#signup2 {
+    border: white 2px solid;
+    border-radius: 5px;
+    padding: 5px 15px;
+    background: #3882f6;
+    color: white;
+    font-weight: bold;
+}
+
