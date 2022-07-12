@@ -83,7 +83,7 @@ button#signup {
     font-weight: bolder;
     color: #1f2937;
     text-align: center;
-    margin: 30px auto;
+    margin: 40px auto;
 }
 
 .container {
@@ -91,6 +91,7 @@ button#signup {
     justify-content: center;
     align-items: center;
     gap: 50px;
+    margin-bottom: 50px;
 }
 
 .placeholder {
@@ -109,4 +110,29 @@ button#signup {
     margin: 0;
 }
 
+.s3 {
+    background: #e5e7eb;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.q {
+    width: 800px;
+    height: 150px;
+}
+
+#quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+#author {
+    font-weight: bold;
+    font-size: 24px;
+    color: #1f2937;
+    text-align: end;
+}
